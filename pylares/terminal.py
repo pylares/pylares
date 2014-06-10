@@ -90,7 +90,7 @@ def _PreprocesarSalida(salida, color, salida_estandar):
 
 
 def _PostprocesarSalida(info):
-    if plataforma == "windows":
+    if plataforma == "windows" and "color_anterior" in info.keys():
         terminal_w.set_text_attr(info["color_anterior"])
 
 
