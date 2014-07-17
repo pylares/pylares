@@ -19,3 +19,17 @@ from .numeros import *
 from .listas import *
 from .logica import *
 from .terminal import *
+
+from interfaz_grafica.tkinter.Boton import Boton
+from interfaz_grafica.tkinter.BotonesDeOpcion import BotonesDeOpcion
+from interfaz_grafica.tkinter.CasillasDeVerificacion import CasillasDeVerificacion
+from interfaz_grafica.tkinter.Contenedores import Columna
+from interfaz_grafica.tkinter.Contenedores import Fila
+from interfaz_grafica.tkinter.Entrada import Entrada
+from interfaz_grafica.tkinter.EntradaMultilinea import EntradaMultilinea
+from interfaz_grafica.tkinter.Etiqueta import Etiqueta
+from interfaz_grafica.tkinter.Imagen import Imagen
+from interfaz_grafica.tkinter.ListaDesplegable import ListaDesplegable
+from interfaz_grafica.tkinter.ListaDesplegada import ListaDesplegada
+from interfaz_grafica.tkinter.Temporizador import Temporizador
+from interfaz_grafica.tkinter.Ventana import Ventana
