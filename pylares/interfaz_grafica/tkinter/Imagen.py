@@ -25,7 +25,7 @@ except ImportError:
 
 from PIL import Image
 from PIL import ImageTk
-from ControlGenerico import ControlGenerico
+from .ControlGenerico import ControlGenerico
 
 class Imagen(ControlGenerico):
 

@@ -23,7 +23,7 @@ except ImportError:
     from tkinter import ttk as Ttk
     import tkinter as Tk
 
-from ControlGenerico import ControlGenerico
+from .ControlGenerico import ControlGenerico
 
 
 class EntradaMultilinea(ControlGenerico):

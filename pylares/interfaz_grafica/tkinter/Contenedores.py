@@ -23,7 +23,7 @@ except ImportError:
     from tkinter import ttk as Ttk
     import tkinter as Tk
 
-from ControlGenerico import ControlGenerico
+from .ControlGenerico import ControlGenerico
 
 
 class Columna(ControlGenerico):
@@ -79,7 +79,14 @@ class Fila(Columna):
 
     def _dibujar(self, master, orientacion):
         Columna._dibujar(self, master, orientacion)
-        for i, item in self._items.iteritems():
+        for i, item in self._iteritems():
             control = item._controlExterno()
             control.pack_configure(pady=0)
             control.pack_configure(side=Tk.LEFT)
+
+    def _iteritems(self):
+        try:
+            return self._items.iteritems()
+        except:
+            return self._items.items()
+

@@ -23,7 +23,7 @@ except ImportError:
     from tkinter import ttk as Ttk
     import tkinter as Tk
 
-from ControlGenerico import ControlGenericoVariableEnlazada
+from .ControlGenerico import ControlGenericoVariableEnlazada
 
 
 class Entrada(ControlGenericoVariableEnlazada):

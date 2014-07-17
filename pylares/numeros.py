@@ -16,7 +16,7 @@ limitations under the License.
 """
 
 import math
-import utilidades
+from pylares import utilidades
 
 
 def DesdeHasta(desde, hasta, incremento = 1):

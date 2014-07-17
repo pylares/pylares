@@ -23,8 +23,8 @@ except ImportError:
     from tkinter import ttk as Ttk
     import tkinter as Tk
 
-from ControlGenerico import ControlConOpciones
-from ControlGenerico import ControlGenericoVariableEnlazada
+from .ControlGenerico import ControlConOpciones
+from .ControlGenerico import ControlGenericoVariableEnlazada
 import __main__
 
 class CasillasDeVerificacion(ControlConOpciones):

@@ -17,12 +17,12 @@ limitations under the License.
 
 import sys
 import os
-from contrib import getch
-import utilidades
+from pylares.contrib import getch
+from pylares import utilidades
 
 try:
     from ctypes import windll
-    from contrib import terminal_w
+    from pylares.contrib import terminal_w
     plataforma = "windows"
 except ImportError:
     plataforma = "linux"
