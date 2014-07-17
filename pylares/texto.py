@@ -16,7 +16,7 @@ limitations under the License.
 """
 
 import sys
-from pylares import utilidades
+import utilidades
 
 
 def Longitud(frase):

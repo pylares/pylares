@@ -17,8 +17,6 @@ limitations under the License.
 
 from pylares import *
 
-import sys
-
 class TestListas:
 
 

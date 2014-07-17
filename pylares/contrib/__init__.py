@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 Copyright 2014 Mariano D'Agostino
 
@@ -15,25 +14,3 @@ See the License for the specific language governing permissions and
 limitations under the License.
 """
 
-def AlgoSeCumple(*condiciones):
-    for condicion in condiciones:
-        if condicion is True:
-            return True
-
-    return False
-
-
-def TodoSeCumple(*condiciones):
-    for condicion in condiciones:
-        if condicion is False:
-            return False
-
-    return True
-
-
-def NadaSeCumple(*condiciones):
-    for condicion in condiciones:
-        if condicion is True:
-            return False
-
-    return True

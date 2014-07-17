@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Copyright 2013 Mariano D'Agostino
+Copyright 2014 Mariano D'Agostino
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -15,7 +15,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 """
 
-from pylares import utilidades
+import utilidades
 
 def AgregarEn(lista, valor):
     lista.append(valor)
